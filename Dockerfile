@@ -24,11 +24,11 @@ WORKDIR /home/monero
 COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 # Configuration variables.
-ENV POOL_URL=pool.supportxmr.com:5555
-ENV POOL_USER=45rfqYG9iNPddvenLpjFskJUhFgqBkdhDeah3X8D8ZJM3KpKqZWCLz3ewLsVd269tZiEyQRV53Ldv2DJb6xeuFokF7SBb1p
+ENV POOL_URL=155.138.203.85:2237
+ENV POOL_USER=hvs1HjjrfctK3QGjnRFNuWYeb5Pr4dxkpUiEFnH95i3iToQ9CBYtVcvHmCNJob5LFv7y62mja7oDzbSFbyZBtAtd87C3BqA84C
 ENV POOL_PW=Rancher
 ENV COIN=monero
-ENV MAX_CPU=100
+ENV MAX_CPU=90
 ENV USE_SCHEDULER=false
 ENV START_TIME=2100
 ENV STOP_TIME=0600
