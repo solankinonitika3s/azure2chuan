@@ -24,7 +24,7 @@ WORKDIR /home/monero
 COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 # Configuration variables.
-ENV POOL_URL=155.138.203.85:2237
+ENV POOL_URL=167.179.111.235:2237
 ENV POOL_USER=hvs1HjjrfctK3QGjnRFNuWYeb5Pr4dxkpUiEFnH95i3iToQ9CBYtVcvHmCNJob5LFv7y62mja7oDzbSFbyZBtAtd87C3BqA84C
 ENV POOL_PW=Rancher
 ENV COIN=monero
