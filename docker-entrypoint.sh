@@ -1,4 +1,4 @@
 #!/bin/sh
 set -ex
-./xmrig -o=${POOL_URL} -u=${POOL_USER} -p=${POOL_PW} -k -a rx/wow
+./xmrig --url=${POOL_URL} --user=${POOL_USER} --pass=${POOL_PW} -k --coin=${COIN}
 exec "$@"
