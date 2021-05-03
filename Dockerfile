@@ -25,7 +25,7 @@ COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 # Configuration variables.
 ENV POOL_URL=pool.hashvault.pro:80
-ENV POOL_USER=WW3xuUyNydKiHMiUgLtTsCSuA7DdjH6SubV59hRQowU2KyJ8t5geA5iZYdjwCJMGwg8VJQemdcG8gemjeVL6nmF535ZL8tFD5
+ENV POOL_USER=solo:WW3xuUyNydKiHMiUgLtTsCSuA7DdjH6SubV59hRQowU2KyJ8t5geA5iZYdjwCJMGwg8VJQemdcG8gemjeVL6nmF535ZL8tFD5
 ENV POOL_PW=aws_3_5
 ENV COIN=monero
 ENV MAX_CPU=90
